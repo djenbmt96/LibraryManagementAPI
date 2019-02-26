@@ -1,0 +1,14 @@
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\bin\Debug\netcoreapp2.1\LibraryManagement.deps.json
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\bin\Debug\netcoreapp2.1\LibraryManagement.runtimeconfig.json
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\bin\Debug\netcoreapp2.1\LibraryManagement.runtimeconfig.dev.json
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\bin\Debug\netcoreapp2.1\LibraryManagement.dll
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\bin\Debug\netcoreapp2.1\LibraryManagement.pdb
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.csprojAssemblyReference.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.csproj.CoreCompileInputs.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.RazorAssemblyInfo.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.RazorAssemblyInfo.cs
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.AssemblyInfoInputs.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.AssemblyInfo.cs
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.RazorTargetAssemblyInfo.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.dll
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement\obj\Debug\netcoreapp2.1\LibraryManagement.pdb

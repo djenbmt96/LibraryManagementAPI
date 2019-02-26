@@ -1,0 +1,12 @@
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\bin\Debug\netcoreapp2.1\LibraryManagement.Core.deps.json
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\bin\Debug\netcoreapp2.1\LibraryManagement.Core.dll
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\bin\Debug\netcoreapp2.1\LibraryManagement.Core.pdb
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\obj\Debug\netcoreapp2.1\LibraryManagement.Core.csprojAssemblyReference.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\obj\Debug\netcoreapp2.1\LibraryManagement.Core.csproj.CoreCompileInputs.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\obj\Debug\netcoreapp2.1\LibraryManagement.Core.AssemblyInfoInputs.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\obj\Debug\netcoreapp2.1\LibraryManagement.Core.AssemblyInfo.cs
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\obj\Debug\netcoreapp2.1\LibraryManagement.Core.dll
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\obj\Debug\netcoreapp2.1\LibraryManagement.Core.pdb
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\bin\Debug\netcoreapp2.1\LibraryManagement.Data.dll
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\bin\Debug\netcoreapp2.1\LibraryManagement.Data.pdb
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Core\obj\Debug\netcoreapp2.1\LibraryManagement.Core.csproj.CopyComplete
