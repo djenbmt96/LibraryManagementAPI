@@ -100,9 +100,14 @@ namespace LibraryManagement.Services.Implements
             };
         }
 
-        public virtual Task<ResultModel<IEnumerable<T>>> GetByPageAsync(int page, int pageSize, string searchKeyword = null)
+        public virtual async Task<ResultModel<IEnumerable<T>>> GetByPageAsync(int page, int pageSize, string searchKeyword = null)
         {
-            throw new System.NotImplementedException();
+            return new ResultModel<IEnumerable<T>>
+            {
+                Data = null,
+                Success = false,
+                Message = "This function is not implemented for " + typeof(T).Name
+            };
         }
     }
 }
