@@ -1,11 +1,10 @@
 D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\bin\Debug\netcoreapp2.1\LibraryManagement.Data.deps.json
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\bin\Debug\netcoreapp2.1\LibraryManagement.Data.runtimeconfig.json
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\bin\Debug\netcoreapp2.1\LibraryManagement.Data.runtimeconfig.dev.json
 D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\bin\Debug\netcoreapp2.1\LibraryManagement.Data.dll
-D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\obj\Debug\netcoreapp2.1\LibraryManagement.Data.csprojAssemblyReference.cache
+D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\bin\Debug\netcoreapp2.1\LibraryManagement.Data.pdb
 D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\obj\Debug\netcoreapp2.1\LibraryManagement.Data.csproj.CoreCompileInputs.cache
 D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\obj\Debug\netcoreapp2.1\LibraryManagement.Data.AssemblyInfoInputs.cache
 D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\obj\Debug\netcoreapp2.1\LibraryManagement.Data.AssemblyInfo.cs
-D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\bin\Debug\netcoreapp2.1\LibraryManagement.Data.runtimeconfig.json
-D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\bin\Debug\netcoreapp2.1\LibraryManagement.Data.runtimeconfig.dev.json
-D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\bin\Debug\netcoreapp2.1\LibraryManagement.Data.pdb
 D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\obj\Debug\netcoreapp2.1\LibraryManagement.Data.dll
 D:\Source Project\VisualStudio\LibraryManagementApi\LibraryManagement.Data\obj\Debug\netcoreapp2.1\LibraryManagement.Data.pdb
