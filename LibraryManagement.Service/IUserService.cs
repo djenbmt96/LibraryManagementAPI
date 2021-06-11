@@ -5,9 +5,9 @@ using LibraryManagement.Models;
 
 namespace LibraryManagement.Services
 {
-    public interface IUserService : IBaseService<User>
+    public interface IUserService: IBaseService<User>
     {
-        UserAuth Authenticate(String userName, String password);
+        ResultModel<UserAuth> Authenticate(String userName, String password);
         Task<ResultModel<User>> Register(User user);
         Task<IEnumerable<User>> GetAllInclude();
     }

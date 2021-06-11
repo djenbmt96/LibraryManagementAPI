@@ -14,7 +14,7 @@ namespace LibraryManagement.Controllers
     [ApiController]
     public class BaseController<T> : ControllerBase where T : class
     {
-        private readonly IBaseService<T> _service;
+        public readonly IBaseService<T> _service;
         public BaseController(IBaseService<T> baseService)
         {
             _service = baseService;
@@ -46,9 +46,9 @@ namespace LibraryManagement.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] T book)
+        public async Task<IActionResult> Post([FromBody] T entity)
         {
-            var result = await _service.Insert(book);
+            var result = await _service.Insert(entity);
             if (result.Success)
             {
                 return Ok(result.Data);
@@ -58,9 +58,9 @@ namespace LibraryManagement.Controllers
 
         [Authorize(Roles = "Admin")]
         [HttpPut]
-        public async Task<IActionResult> Put([FromBody] T book)
+        public async Task<IActionResult> Put([FromBody] T entity)
         {
-            var result = await _service.Update(book);
+            var result = await _service.Update(entity);
             if (result.Success)
             {
                 return Ok(result.Data);

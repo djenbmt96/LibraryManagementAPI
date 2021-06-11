@@ -15,35 +15,35 @@ namespace LibraryManagement.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        private readonly IUserService _baseService;
+        private readonly IUserService _service;
 
-        public UsersController(IUserService baseService)
+        public UsersController(IUserService service)
         {
-            _baseService = baseService;
+            _service = service;
         }
 
         [AllowAnonymous]
         [HttpPost("login")]
         public IActionResult Login([FromBody]User userInfo)
         {
-            var user = _baseService.Authenticate(userInfo.UserName, userInfo.Password);
-            if (user == null)
+            var user = _service.Authenticate(userInfo.UserName, userInfo.Password);
+            if (!user.Success)
             {
-                return BadRequest(new { message = "Username or password is incorrect", status = 400 });
+                return BadRequest(user.Message);
             }
-            return Ok(new { message = "Login success", status = 200, result = user });
+            return Ok(user);
         }
 
         [AllowAnonymous]
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody]User userInfo)
         {
-            var result = await _baseService.Register(userInfo);
+            var result = await _service.Register(userInfo);
             if (!result.Success)
             {
-                return BadRequest(new { message = "Your username already existed", status = 400 });
+                return BadRequest(result.Message);
             }
-            return Ok(new { message = "Account is created", status = 200 });
+            return Ok(result);
         }
     }
 }

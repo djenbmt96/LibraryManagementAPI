@@ -21,6 +21,7 @@ using System.Text;
 using System.Threading.Tasks;
 using LibraryManagement.Models;
 using LibraryManagement.Services.Implements;
+using LibraryManagement.Service.Implements;
 
 namespace LibraryManagement
 {
@@ -55,6 +56,7 @@ namespace LibraryManagement
             services.AddScoped<IUserService,UserService>();
             services.AddScoped<IBaseService<Book>, BookService>();
             services.AddScoped<IBaseService<Author>, AuthorService>();
+            services.AddScoped<IBaseService<Genre>, GenreService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 

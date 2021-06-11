@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Services.Implements
 {
-    public class AuthorService : BaseService<Author>, IBaseService<Author>
+    public class AuthorService : BaseService<Author>
     {
         public AuthorService(IUnitOfWork unitOfWork) : base(unitOfWork)
         {

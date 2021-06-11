@@ -26,7 +26,7 @@ namespace LibraryManagement.Services
             var includes = new List<string>(new string[] { "IdRoleNavigation" });
             return await _repository.GetAllAsync(includes);
         }
-        public UserAuth Authenticate(string userName, string password)
+        public ResultModel<UserAuth> Authenticate(string userName, string password)
         {
             //TODO : hash password here
             var passwordEncrypt = Auth.EncryptString(_config.Value.SecretKey, password);
@@ -51,18 +51,29 @@ namespace LibraryManagement.Services
                 };
                 var token = tokenHandler.CreateToken(tokenDescriptor);
                 var tokenString = tokenHandler.WriteToken(token);
-                return new UserAuth()
+                var data = new UserAuth()
                 {
-
                     UserName = user.Result.UserName,
                     Name = user.Result.Name,
                     Phone = user.Result.Phone,
                     YearOfBirth = user.Result.YearOfBirth,
                     Token = tokenString
                 };
+                return new ResultModel<UserAuth>
+                {
+                    Data = data,
+                    Success = true,
+                    Message = "Login successfully"
+                };
             }
 
-            return null;
+
+            return new ResultModel<UserAuth>
+            {
+                Data = null,
+                Success = false,
+                Message = "Username or password is incorrect"
+            };
 
         }
 
@@ -70,7 +81,23 @@ namespace LibraryManagement.Services
         {
             user.Password = Auth.EncryptString(_config.Value.SecretKey, user.Password);
             user.IdRole = user.IdRole != null ? user.IdRole : DefaultRole;
-            return await Insert(user);
+            _repository.Insert(user);
+            var success = await _repository.SaveAsync();
+            if (success)
+            {
+                return new ResultModel<User>
+                {
+                    Data = user,
+                    Success = true,
+                    Message = "Register successfully"
+                };
+            }
+            return new ResultModel<User>
+            {
+                Data = user,
+                Success = false,
+                Message = "Can not register user"
+            };
         }
     }
 }
